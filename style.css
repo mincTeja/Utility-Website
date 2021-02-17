@@ -49,6 +49,12 @@ body {
     flex-direction: column;
 }
 
+.flexbox2 {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: row;
+}
 .flex-item1 {
     position: relative;
     padding: 10px 10px 10px 10px;
@@ -71,6 +77,30 @@ body {
     align-items: center; 
     height: 70px;
     vertical-align: middle;   
+}
+
+.flex-item3 {
+    position: relative;
+    padding: 10px 10px 10px 10px;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    border-radius: 8px;
+    height: 495px;
+    width: 40%;
+    margin: 2% 2% 2% 2%;
+    box-sizing: border-box;
+  
+} 
+
+.flex-item3 h3 {
+    text-align: center;
+    margin-top: 15%;
+}
+
+.output-div{
+    background-color:#15a8e0;
+    height: 100%;
+    width: 100%;
 }
 
 button{
@@ -131,6 +161,15 @@ textarea{
     box-shadow: none;
 }
 
+.redLabel{
+    color: red;
+}
+.greenLabel{
+    color: green;
+}
+.blueLabel{
+    color: blue;
+}
 
 .footer{
     background-color: #333;
