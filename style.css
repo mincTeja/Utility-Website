@@ -3,6 +3,7 @@
 }
 body {
     background-color:#f5f5f5;
+    padding-bottom: 58px;
 }
 .top-nav-bar {
     background-color: #333;
@@ -116,6 +117,7 @@ button{
 textarea{
     border: none;
     width: 99.5%;
+    height: 99%;
     box-shadow: none;
 }
 
