@@ -84,22 +84,34 @@ button{
     justify-content: center;
   }
   
-  .button {
-    background-color: #113448;
-    color: wheat;
-    padding: 2px 6px;
+  .encode {
+    background-color:coral;
+    color : #333;
+    padding : 2px 6px;
     text-decoration: solid;
-    display: inline-block;
-    text-align: center;
-    border: 1px solid black;
-    font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    display : inline-block;
+    text-align : center;
+    border : 1px solid black;
+    font-size : 20px;
+    margin-top: 1%;
+    margin-bottom:1%;
+    border-radius : 8px;
+  }
+
+  .decode {
+    background-color:coral;
+    color : #333;
+    padding : 2px 6px;
+    text-decoration: solid;
+    display : inline-block;
+    text-align : center;
+    border : 1px solid black;
+    font-size : 20px;
+    margin:0.8% 1% 1% 8%;
+    border-radius : 8px;
   }
   
-  .button-position2 {
-    margin-left: 40px;
-  }
+
 
 textarea{
     border: none;
